@@ -1,0 +1,95 @@
+.container {
+    --main-color: #083157;
+    --accent-color: #4BC1C2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: var(--main-color);
+    display: inline-block;
+    background-color: white;
+    min-height: 100vh;
+    max-height: 100vh;
+    max-width: 560px;
+    min-width: 375px;
+    width: 100%;
+    overflow-y: auto ;
+
+
+}
+
+.listItem{
+    --border: 1px solid rgba(11,49,87,0.1);
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 16px;
+    border-bottom: var(--border);
+}
+
+.profilePictureWrapper {
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+}
+
+.profilePicture{
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+
+.infoContainer{
+    padding: 0 17px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.fullName{
+    font-size: 16px;
+    letter-spacing: -0.3px;
+    line-height: 19px;
+}
+
+.level{
+
+    letter-spacing: -0.26px;
+    opacity: 0.5;
+}
+.check{
+    cursor: pointer;
+    margin-left: auto;
+    background-color: #DBE0E6;
+    border-radius: 100%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checked{
+    background-color: var(--accent-color);
+}
+
+.selectedItem{
+    margin-left: 4px;
+    display: inline-block;
+    color: var(--accent-color);
+    letter-spacing: -0.3px;
+    text-align: left;
+}
+
+
+.listItemTo{
+    --border: 1px solid rgba(11,49,87,0.1);
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    border-bottom: var(--border);
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
